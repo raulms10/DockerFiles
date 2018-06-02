@@ -1,0 +1,10 @@
+version: '3'
+services:
+  scala:
+    image: "raulms10/appcodebreakerrauljeanfinal"
+    ports:
+     - "9000:9000"
+  react:
+    image: "raulms10/frontcodebreakerrauljeanfinal"
+    ports:
+     - "3000:3000"
